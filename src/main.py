@@ -29,7 +29,7 @@ class Main(QMainWindow):
 
         # App info
         self.version: str = "v1.2.3"
-        self.title: str = f"Big Slime Video Compressor {self.version}"
+        self.title: str = f"Python Video Compressor {self.version}"
         self.author: str = "Big Slime"
 
         # Video Options
