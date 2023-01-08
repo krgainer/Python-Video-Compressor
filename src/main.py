@@ -1,6 +1,6 @@
-# Created by Big Slime
-# https://github.com/big-slime/video-compressor
-# Python 3.9.7 64-bit
+# Created by Big Slime // Updated by KRGainer
+# https://github.com/krgainer/Python-Video-Compressor
+# Python 3.9.7+ 64-bit
 
 from PyQt5.QtCore import QThread, Qt
 from PyQt5.QtWidgets import (
@@ -13,11 +13,11 @@ from PyQt5.QtWidgets import (
     QTextEdit,
     QMainWindow,
 )
+
 from PyQt5.QtGui import QFont, QTextCursor, QIcon
 from configparser import ConfigParser
 import os, psutil, webbrowser, time
 from worker import Worker
-
 
 class Main(QMainWindow):
     def __init__(self) -> None:

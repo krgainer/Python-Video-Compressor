@@ -1,3 +1,7 @@
+# Created by Big Slime // Updated by KRGainer
+# https://github.com/krgainer/Python-Video-Compressor
+# Python 3.9.7+ 64-bit
+
 from cx_Freeze import setup, Executable
 from pathlib import Path
 import os
